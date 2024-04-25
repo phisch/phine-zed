@@ -1,0 +1,7 @@
+id = "phine"
+name = "Phine"
+version = "0.0.1"
+schema_version = 1
+authors = ["Philipp Schaffrath <philipp.schaffrath@gmail.com>"]
+description = "A phine zed theme."
+repository = "https://github.com/phisch/phine-zed"
