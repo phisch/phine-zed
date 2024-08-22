@@ -1,0 +1,39 @@
+[surface]
+primary = "#090909"
+secondary = "#121212"
+tertiary = "#1A1A1A"
+modal = "#222222"
+accent = "#482FB8"
+transparent = "#00000000"
+demote = "#0D0D0D"
+
+[state]
+hover = "#ffffff02"
+active = "#ffffff07"
+selected = "#ffffff02"
+disabled = "#ff0000"
+
+
+[text]
+default = "#CCCCCC"
+muted = "#ffffff20"
+disabled = "#2c2c2c"
+placeholder = "#343434"
+
+[text.syntax]
+default = "#D5D5D5"
+comment = "#2E2E2E"
+comment_doc = "#446850"
+red = "#FF8787"
+orange = "#F0A875"
+yellow = "#F5DE89"
+green = "#7DE898"
+cyan = "#79E0EC"
+blue = "#5D8DEE"
+purple = "#8B76EA"
+pink = "#F997E8"
+
+
+[guide]
+default = "#161616"
+active = "#292929"
