@@ -6,6 +6,7 @@ modal = "#222222"
 accent = "#482FB8"
 transparent = "#00000000"
 demote = "#0D0D0D"
+overlay = "#482FB808"
 
 [state]
 hover = "#ffffff02"
@@ -13,16 +14,16 @@ active = "#ffffff07"
 selected = "#ffffff02"
 disabled = "#ff0000"
 
-
 [text]
 default = "#CCCCCC"
-muted = "#ffffff20"
+muted = "#ffffff30"
 disabled = "#2c2c2c"
 placeholder = "#343434"
+discreet = "#ffffff08"
 
 [text.syntax]
 default = "#D5D5D5"
-comment = "#2E2E2E"
+comment = "#383838"
 comment_doc = "#446850"
 red = "#FF8787"
 orange = "#F0A875"
@@ -37,3 +38,9 @@ pink = "#F997E8"
 [guide]
 default = "#161616"
 active = "#292929"
+
+
+[git]
+added = "#7DE898"
+modified = "#F5DE89"
+deleted = "#FF8787"
