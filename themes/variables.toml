@@ -36,8 +36,8 @@ pink = "#F997E8"
 
 
 [guide]
-default = "#161616"
-active = "#292929"
+default = "#191919"
+active = "#303030"
 
 
 [git]
