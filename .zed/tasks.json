@@ -1,0 +1,11 @@
+[
+  {
+    "label": "Start theming",
+    "command": "./variable-substitutor/target/release/substitutor -o ~/.config/zed/themes/phine.json themes/phine.json -w",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "hide": "on_success",
+    "shell": "system"
+  }
+]
