@@ -50,12 +50,12 @@
         "panel.focused_border": null,
         "pane.focused_border": null,
         "scrollbar.thumb.background": "$state.active",
-        "scrollbar.thumb.hover_background": "#ff0000", // TODO: this color is ignored by zed
+        "scrollbar.thumb.hover_background": "$debug", // TODO: this color is ignored by zed
         "scrollbar.thumb.border": "$surface.transparent",
         "editor.indent_guide": "$guide.default",
         "editor.indent_guide_active": "$guide.active",
         "scrollbar.track.background": "#00000000",
-        "scrollbar.track.border": "#2e333cff",
+        "scrollbar.track.border": "$state.hover",
         "editor.foreground": "$text.syntax.default",
         "editor.background": "$surface.secondary",
         "editor.gutter.background": "$surface.demote",
@@ -66,7 +66,7 @@
         "editor.active_line_number": "$text.syntax.default",
         "editor.invisible": "#696B77ff",
         "editor.wrap_guide": "$guide.default",
-        "editor.active_wrap_guide": "#ff0000",
+        "editor.active_wrap_guide": "$debug",
         "editor.document_highlight.read_background": "#74ade81a",
         "editor.document_highlight.write_background": "#555a6366",
         "terminal.background": "$surface.primary",

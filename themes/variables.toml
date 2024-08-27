@@ -1,3 +1,5 @@
+debug = "#ff00ff"
+
 [surface]
 primary = "#090909"
 secondary = "#121212"
@@ -34,11 +36,9 @@ blue = "#5D8DEE"
 purple = "#8B76EA"
 pink = "#F997E8"
 
-
 [guide]
-default = "#191919"
-active = "#303030"
-
+default = "#202020"
+active = "#333333"
 
 [git]
 added = "#7DE898"
