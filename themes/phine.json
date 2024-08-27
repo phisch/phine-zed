@@ -49,9 +49,9 @@
         "panel.background": "$surface.secondary",
         "panel.focused_border": null,
         "pane.focused_border": null,
-        "scrollbar.thumb.background": "#c8ccd44c",
-        "scrollbar.thumb.hover_background": "#363c46ff",
-        "scrollbar.thumb.border": "#363c46ff",
+        "scrollbar.thumb.background": "$state.active",
+        "scrollbar.thumb.hover_background": "#ff0000", // TODO: this color is ignored by zed
+        "scrollbar.thumb.border": "$surface.transparent",
         "editor.indent_guide": "$guide.default",
         "editor.indent_guide_active": "$guide.active",
         "scrollbar.track.background": "#00000000",

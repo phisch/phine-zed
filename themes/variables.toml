@@ -23,7 +23,7 @@ discreet = "#ffffff08"
 
 [text.syntax]
 default = "#D5D5D5"
-comment = "#383838"
+comment = "#454545"
 comment_doc = "#446850"
 red = "#FF8787"
 orange = "#F0A875"
