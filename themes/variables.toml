@@ -24,7 +24,7 @@ placeholder = "#343434"
 discreet = "#ffffff08"
 
 [text.syntax]
-default = "#D5D5D5"
+default = "#ffffff"
 comment = "#454545"
 comment_doc = "#446850"
 red = "#FF8787"
