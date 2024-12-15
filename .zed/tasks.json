@@ -1,7 +1,16 @@
 [
   {
     "label": "Start theming",
-    "command": "cargo run --release --manifest-path variable-substitutor/Cargo.toml -- -o ~/.config/zed/themes/phine.json themes/phine.json -w",
+    "command": "cargo run --release --manifest-path variable-substitutor/Cargo.toml -- -o ~/.config/zed/themes/phine.json src/phine.json -w",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+    "hide": "on_success",
+    "shell": "system"
+  },
+  {
+    "label": "Build Theme",
+    "command": "mkdir -p themes && cargo run --release --manifest-path variable-substitutor/Cargo.toml -- -o themes/phine.json src/phine.json",
     "use_new_terminal": true,
     "allow_concurrent_runs": false,
     "reveal": "always",
