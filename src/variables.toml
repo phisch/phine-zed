@@ -14,7 +14,7 @@ overlay = "#482FB808"
 hover = "#ffffff02"
 active = "#ffffff07"
 selected = "#ffffff02"
-disabled = "#ff0000"
+disabled = "#ffffff01"
 
 [text]
 default = "#CCCCCC"
@@ -37,8 +37,9 @@ purple = "#8B76EA"
 pink = "#F997E8"
 
 [guide]
-default = "#202020"
-active = "#333333"
+default = "#ffffff03"
+active = "#ffffff07"
+hover = "#ffffff11"
 
 [git]
 added = "#7DE898"

@@ -4,9 +4,8 @@
   "author": "Philipp Schaffrath",
   "themes": [
     {
-      "name": "Phine",
       "appearance": "dark",
-
+      "name": "Phine",
       "style": {
         "border": "$surface.tertiary",
         "border.variant": "$surface.tertiary",
@@ -50,10 +49,13 @@
         "panel.focused_border": null,
         "pane.focused_border": null,
         "scrollbar.thumb.background": "$state.active",
-        "scrollbar.thumb.hover_background": "$debug", // TODO: this color is ignored by zed
+        "scrollbar.thumb.hover_background": "$debug",
         "scrollbar.thumb.border": "$surface.transparent",
         "editor.indent_guide": "$guide.default",
         "editor.indent_guide_active": "$guide.active",
+        "panel.indent_guide": "$guide.default",
+        "panel.indent_guide_active": "$guide.active",
+        "panel.indent_guide_hover": "$guide.hover",
         "scrollbar.track.background": "#00000000",
         "scrollbar.track.border": "$state.hover",
         "editor.foreground": "$text.syntax.default",
